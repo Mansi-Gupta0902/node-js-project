@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topFold">
+        
+            <img class="mit" src="https://th.bing.com/th/id/OIP.k2eBuQFIXtPDqiSqbe8dNAHaCS?pid=ImgDet&rs=1" alt="">
+        
+        <div class="head">
+            <img id="image" src="https://cdn2.iconfinder.com/data/icons/people-2-2/128/Graduate-Male-Scholar-Student-Avatar-512.png" alt="">
+            <h2 id="heading">Student Registration</h3>
+        </div>
+        
+    </div>
+    <div class="regForm">
+        
+            <img class="logo" src="https://image.freepik.com/free-vector/students-learn-distance-via-internet-technology_82574-3754.jpg" alt="">
+        
+        
+        <form action="" method="get">
+            
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required onchange="nameValidation()">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter your username" required>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" required onchange="emailValidation()">
+            <label for="phone">Contact No.</label>
+            <input type="number" id="phone" name="phone" placeholder="Enter your contact no." required onchange="phoneValidation()">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="passowrd" placeholder="Enter your password" required onchange="pwdValidation()">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required onchange="confirmValidation()">
+            <input type="submit" value="REGISTER" id="button"></input>
+
+                
+            
+
+        </form>
+    </div>
+  
+</body>
+</html>

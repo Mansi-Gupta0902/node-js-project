@@ -1,0 +1,90 @@
+body{
+    background-color:rgba(0, 0, 0,0) ;
+    color: rgb(37, 37, 37);
+    font-family: 'Rubik', sans-serif;
+    /* margin-top: 20px; */
+    
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid green; */
+    text-align: right;
+}
+.topFold{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    margin-right: 80px;
+    position: sticky;
+    top: 0px;
+    /* border: 1px solid rgb(150, 148, 148); */
+
+}
+#image{
+    object-fit: contain;
+    width: 3%;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 999px;
+}
+form{
+    /* border: 1px solid rgb(58, 56, 56); */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    flex: 0.5;
+}
+.regForm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
+.mit{
+    object-fit: contain;
+    width: 30%;
+    /* border: 1px solid black; */
+    z-index: 99px;
+    margin-top: 0px;
+}
+
+form input{
+    margin: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(83, 83, 83);
+}
+form label{
+    font-size: small;
+    
+}
+#button{
+    background-color: #30cbca;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    
+}
+#button:hover{
+   color: black;
+}
